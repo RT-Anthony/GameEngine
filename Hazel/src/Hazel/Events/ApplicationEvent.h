@@ -56,4 +56,13 @@ namespace Hazel {
         EVENT_CLASS_CATEGORY(EventCategoryApplication)
     }; // AppUpdateEvent
 
+    class HAZEL_API AppRenderEvent : public Event
+    {
+    public:
+        AppRenderEvent() {}
+
+        EVENT_CLASS_TYPE(AppRender)
+            EVENT_CLASS_CATEGORY(EventCategoryApplication)
+    }; // AppRenderEvent
+
 } // namespace Hazel
