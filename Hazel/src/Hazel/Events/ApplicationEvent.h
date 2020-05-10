@@ -2,7 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
 
 namespace Hazel {
 
@@ -62,7 +61,7 @@ namespace Hazel {
         AppRenderEvent() {}
 
         EVENT_CLASS_TYPE(AppRender)
-            EVENT_CLASS_CATEGORY(EventCategoryApplication)
+        EVENT_CLASS_CATEGORY(EventCategoryApplication)
     }; // AppRenderEvent
 
 } // namespace Hazel
