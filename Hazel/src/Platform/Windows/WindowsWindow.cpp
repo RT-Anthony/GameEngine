@@ -5,7 +5,7 @@ namespace Hazel
 {
     static bool s_GLFWInitialized = false;
 
-    Window* Window::Create(const WindowProps& props)
+    Window* Window::Create(const WindowProps& props) // TODO: This is a hacky shortcut...I need to fix this later
     {
         return new WindowsWindow(props);
     }
