@@ -168,4 +168,4 @@ namespace Hazel {
 		return false;
 	}
 
-}
+} // namespace Hazel

@@ -43,4 +43,4 @@ namespace Hazel {
 		return y;
 	}
 
-}
+} // namespace Hazel
